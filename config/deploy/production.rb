@@ -12,7 +12,7 @@ server '192.168.0.112', user: 'deployer', roles: %w{web app db}, port: 2247
 # Global options
 # --------------
   set :ssh_options, {
-    keys: %w(/home/max/.ssh/id_rsa),
+    keys: %w(/home/deployer/.ssh/id_rsa),
     forward_agent: true,
     auth_methods: %w(password)
   }
