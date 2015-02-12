@@ -1,5 +1,5 @@
 set :application, 'TestApp'
-set :repo_url, 'git@github.com:Lorjax/TestApp.git'
+set :repo_url, 'https://github.com/Lorjax/TestApp.git'
 
 set :deploy_to, '/home/deployer/TestApp'
 
