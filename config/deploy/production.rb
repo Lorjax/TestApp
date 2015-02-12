@@ -16,7 +16,7 @@ set :stage, :production
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server '192.168.0.112', user: 'deployer', roles: %w{web app}, port: 2247
+server '192.168.0.112', user: 'deployer', roles: %w{web app db}, port: 2247
 
 
 # Custom SSH Options
