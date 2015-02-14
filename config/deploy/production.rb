@@ -1,7 +1,7 @@
 set :stage, :production
 
 
-server '192.168.0.112', user: 'deployer', roles: %w{web app db}, port: 2247
+server '192.168.0.117', user: 'deployer', roles: %w{web app db}, port: 2247
 
 
 # Custom SSH Options
@@ -11,11 +11,11 @@ server '192.168.0.112', user: 'deployer', roles: %w{web app db}, port: 2247
 #
 # Global options
 # --------------
-  set :ssh_options, {
-    keys: %w(/home/deployer/.ssh/id_rsa),
-    forward_agent: true,
-    auth_methods: %w(password)
-  }
+  # set :ssh_options, {
+  #   keys: %w(/home/deployer/.ssh/id_rsa),
+  #   forward_agent: true,
+  #   auth_methods: %w(password)
+  # }
 #
 # And/or per server (overrides global)
 # ------------------------------------
